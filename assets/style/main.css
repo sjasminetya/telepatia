@@ -1,0 +1,193 @@
+.btn-master, .btn-light, .btn-aqua, .btn-primary {
+  padding: 15px 26px;
+  border-radius: 10px;
+  font-weight: 600 !important;
+  border: 0;
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  background: #563AD6;
+}
+.btn-primary:hover {
+  background: #563AD6;
+}
+
+.btn-aqua {
+  color: #FFFFFF;
+  background: #3ABAD6;
+}
+.btn-aqua:hover {
+  background: #3ABAD6;
+  color: #FFFFFF;
+}
+
+.btn-light {
+  color: #777790;
+  background: #EAEBF4;
+}
+.btn-light:hover {
+  color: #777790;
+  background: #EAEBF4;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar-tp {
+  padding-top: 30px;
+}
+.navbar-tp .navbar-nav li.nav-item {
+  padding-left: 50px;
+}
+.navbar-tp .navbar-nav li.nav-item .nav-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #02044A !important;
+  font-weight: 400 !important;
+}
+.navbar-tp .navbar-nav li.nav-item .nav-link:hover {
+  border-bottom: 4px solid #563AD6;
+}
+.navbar-tp .navbar-nav li.nav-item .active {
+  color: #563AD6 !important;
+  font-weight: 500 !important;
+}
+.navbar-tp .navbar-nav li.nav-item .active:hover {
+  color: #563AD6 !important;
+  font-weight: 500 !important;
+  border-bottom: none;
+}
+
+.jumbotron {
+  padding-top: 100px;
+}
+.jumbotron .copywriter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 140px;
+}
+.jumbotron .copywriter h1.title {
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 600 !important;
+  color: #02044A;
+}
+.jumbotron .copywriter p.description {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400 !important;
+  color: #9B9CB7;
+  margin: 20px 0px 40px 0px;
+}
+.jumbotron .brands-logo {
+  margin-top: 70px;
+}
+
+.budget {
+  background: #F9F9FB;
+  margin-top: 70px;
+  padding-bottom: 70px;
+}
+.budget .copywriter {
+  margin: 70px 0px 50px 0px;
+}
+.budget .copywriter h1.title {
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 600 !important;
+  color: #02044A;
+  text-align: center;
+}
+.budget .copywriter p.description {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400 !important;
+  color: #9B9CB7;
+  margin: 20px 0px 40px 0px;
+  text-align: center;
+}
+.budget .master-card, .budget .popular-card, .budget .basic-card {
+  border-radius: 22px;
+  padding: 30px;
+  width: 300px;
+}
+.budget .basic-card {
+  background: #FFFFFF;
+  height: 500px;
+  margin-right: 70px;
+}
+.budget .basic-card h5 {
+  font-size: 18px;
+  line-height: 21px;
+  color: #02044A;
+  font-weight: 500 !important;
+}
+.budget .basic-card h1 {
+  font-size: 36px;
+  line-height: 43px;
+  color: #02044A;
+  font-weight: 700 !important;
+  padding: 15px 0;
+}
+.budget .basic-card p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400 !important;
+  color: #9B9CB7;
+}
+.budget .basic-card .btn-basic {
+  width: 100%;
+  margin-top: 40px;
+}
+.budget .basic-card .item-benefit {
+  display: flex;
+}
+.budget .basic-card .item-benefit p {
+  padding: 18px 0px 0px 8px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500 !important;
+  color: #02044A;
+}
+.budget .popular-card {
+  background: #563AD6;
+  min-height: 513px;
+}
+.budget .popular-card h5 {
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  font-weight: 500 !important;
+}
+.budget .popular-card h1 {
+  font-size: 36px;
+  line-height: 43px;
+  color: #FFFFFF;
+  font-weight: 700 !important;
+  padding: 15px 0;
+}
+.budget .popular-card p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400 !important;
+  color: #9B9CB7;
+}
+.budget .popular-card .btn-popular {
+  width: 100%;
+  margin-top: 40px;
+}
+.budget .popular-card .item-benefit {
+  display: flex;
+}
+.budget .popular-card .item-benefit p {
+  padding: 18px 0px 0px 8px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500 !important;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=main.css.map */

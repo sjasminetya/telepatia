@@ -1,0 +1,40 @@
+@import './fonts';
+
+.btn-master {
+    padding: 15px 26px;
+    border-radius: 10px;
+    font-weight:  map-get($font-weights, semibold) !important;
+    border: 0;
+}
+
+.btn-primary {
+    @extend .btn-master;
+    color: $white;
+    background: $purple;
+
+    &:hover {
+        background: $purple;
+    }
+}
+
+.btn-aqua {
+    @extend .btn-master;
+    color: $white;
+    background: $aqua;
+
+    &:hover {
+        background: $aqua;
+        color: $white;
+    }
+}
+
+.btn-light {
+    @extend .btn-master;
+    color: $darpur;
+    background: $gray-100;
+
+    &:hover {
+        color: $darpur;
+        background: $gray-100;
+    }
+}
